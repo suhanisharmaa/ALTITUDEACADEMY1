@@ -5,34 +5,36 @@ import MailIcon from '@material-ui/icons/Mail';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { Link } from 'react-router-dom';
 import "./Header.css";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
 
-function Header(props){
-  const [{ basket, user }, dispatch] = useStateValue();
+// import { useStateValue } from "./StateProvider";
+// import { auth } from "./firebase";
 
-  const handleAuthenticaton = () => {
-    if (user) {
-      auth.signOut();
-    }
-  }
+function Header(){
+  // const [{ basket, user }, dispatch] = useStateValue();
+
+  // const handleAuthenticaton = () => {
+  //   if (user) {
+  //     auth.signOut();
+  //   }
+  // }
 
   return (
-    <div className={props.route}>
+    <>
+    <div className="main_header">
       <img src="images/logoaa2.png" alt="" className="header_logo" />
 
       <div className="header_nav">
       <Link to='/'><div className="header_option">Home</div></Link>
-        <Link to='/studymaterial'><div className="header_option">Study Material</div></Link>
+        {/* <Link to='/studymaterial'><div className="header_option">Study Material</div></Link> */}
         <Link to ='/about'><div className="header_option">About Us</div></Link>
         <Link to ='/reviews'><div className="header_option">Reviews</div></Link>
         <Link to ='/gallery'><div className="header_option">Gallery</div></Link>
         {/* <Link to ='/login'><div className="header_option">Login</div></Link> */}
-        {user ? <Link to ='/payment'><div className="header_option">Cart</div></Link> : <Link to ='/login'><div className="header_option">Cart</div></Link>}
+        {/* {user ? <Link to ='/payment'><div className="header_option">Cart</div></Link> : <Link to ='/login'><div className="header_option">Cart</div></Link>} */}
         
-        <div onClick={handleAuthenticaton} className="header_option">
+        {/* <div onClick={handleAuthenticaton} className="header_option">
         {user ? <Link to ='/'><p>Sign Out</p></Link> : <Link to ='/login'><p>Sign In</p></Link>}
-        </div>
+        </div> */}
         
         
         <div className="header_contact" id="call">
@@ -53,9 +55,10 @@ function Header(props){
       
       </div>
       </div>
+      </>
   );
 }
-Header.defaultProps = {
-  route: "page_header"
-}
+// Header.defaultProps = {
+//   route: "page_header"
+// }
 export default Header;

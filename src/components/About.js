@@ -17,7 +17,7 @@ function About() {
               <strong>OUR STORY</strong>
             </h1>
           </div>
-          <div className="card">
+          <div className="cardd">
             <div className="overview_text">
               <h3>HOW WE STARTED</h3>
               Our Founder, Shweta Sharma has been teaching ever since she was a
@@ -31,10 +31,15 @@ function About() {
               Altitude Academy now has a community of students, teachers, alumni
               that have forever taken a piece in Altitude Academy's story.
               <h3>OUR MISSION</h3>
-              Our vision is to nurture the students to explore their full potential so as to boost their self-confidence and morale.
-              Our mission is to provide the best tuition to every student with resources and opportunities to learn and achieve academic success.
-We aim to help all students achieve their potential by giving them encouragement, understanding and individualised attention.
-We strive to raise our students’ aspiration and achievement levels by infusing them with enthusiasm for the subject, self-confidence, motivation and direction.
+              Our vision is to nurture the students to explore their full
+              potential so as to boost their self-confidence and morale. Our
+              mission is to provide the best tuition to every student with
+              resources and opportunities to learn and achieve academic success.
+              We aim to help all students achieve their potential by giving them
+              encouragement, understanding and individualised attention. We
+              strive to raise our students’ aspiration and achievement levels by
+              infusing them with enthusiasm for the subject, self-confidence,
+              motivation and direction.
             </div>
           </div>
         </div>
@@ -56,8 +61,14 @@ We strive to raise our students’ aspiration and achievement levels by infusing
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
               optio provident similique accusantium magni, fuga expedita fugit
               ratione iure in nulla enim alias obcaecati beatae eveniet non
-              suscipit reprehenderit omnis ex. Ad, voluptas possimus.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit magnam modi, excepturi nesciunt velit necessitatibus reiciendis? Quia, dolor sunt voluptatum reprehenderit minima perferendis ducimus laborum mollitia magnam, labore facere? Accusantium laborum perferendis laudantium atque mollitia veniam! Molestias odit placeat tempora, consequuntur, exercitationem dolores nihil eos ipsum ipsam, eius cumque.
+              suscipit reprehenderit omnis ex. Ad, voluptas possimus. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit
+              magnam modi, excepturi nesciunt velit necessitatibus reiciendis?
+              Quia, dolor sunt voluptatum reprehenderit minima perferendis
+              ducimus laborum mollitia magnam, labore facere? Accusantium
+              laborum perferendis laudantium atque mollitia veniam! Molestias
+              odit placeat tempora, consequuntur, exercitationem dolores nihil
+              eos ipsum ipsam, eius cumque.
             </p>
           </div>
         </div>
@@ -69,16 +80,121 @@ We strive to raise our students’ aspiration and achievement levels by infusing
               <p>JYOTHI MA'AM</p>
             </div>
           </div>
-          
+
           <div className="teacher_right">
             <h2>OUR PILLAR OF STRENGTH</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
               optio provident similique accusantium magni, fuga expedita fugit
               ratione iure in nulla enim alias obcaecati beatae eveniet non
-              suscipit reprehenderit omnis ex. Ad, voluptas possimus.
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis alias aperiam eaque accusantium totam, voluptas aspernatur consequuntur deserunt ad earum suscipit quis vitae? Officiis corrupti reiciendis veniam sapiente aspernatur quo numquam maiores, ipsum explicabo beatae est eveniet excepturi doloremque hic et perferendis at aut, velit deserunt optio perspiciatis odio rem.
+              suscipit reprehenderit omnis ex. Ad, voluptas possimus. Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Nobis alias
+              aperiam eaque accusantium totam, voluptas aspernatur consequuntur
+              deserunt ad earum suscipit quis vitae? Officiis corrupti
+              reiciendis veniam sapiente aspernatur quo numquam maiores, ipsum
+              explicabo beatae est eveniet excepturi doloremque hic et
+              perferendis at aut, velit deserunt optio perspiciatis odio rem.
             </p>
+          </div>
+        </div>
+
+        <div className="section_2">
+          <h2>OUR FACULTY</h2>
+          <div className="teachers_section">
+            
+            <div className="card-decks">
+            <div className="card-deck">
+              <div className="card">
+                <img className="card-img-top" src="images/teachers/a.jpg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">SHWETA MA'AM</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Maths Faculty 2016-2019</small>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src="images/teachers/d.jpg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">JYOTHI MA'AM</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">All Subjects Faculty 2016-2019</small>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src="images/teachers/c.jpg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">CHEMISTRY MA'AM</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Chemistry Faculty 2016-2019</small>
+                </div>
+              </div>
+            </div>
+
+            <div className="card-deck">
+            <div className="card">
+                <img className="card-img-top" src="images/teachers/a.jpg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">PREMILA MA'AM</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Chemistry Faculty 2016-2019</small>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src="images/teachers/d.jpg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">DEEPA MA'AM</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Physics Faculty 2016-2019</small>
+                </div>
+              </div>
+              <div className="card">
+                <img className="card-img-top" src="images/teachers/c.jpg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">ENGLISH MA'AM</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">English Faculty 2016-2019</small>
+                </div>
+              </div>
+              </div>
+              </div>
+            
+
           </div>
         </div>
 
@@ -88,7 +204,7 @@ We strive to raise our students’ aspiration and achievement levels by infusing
             <Carousel.Item>
               <img
                 className="d-block w-80"
-                src="images/Screenshot (486).png"
+                src="images/gallery/14.jpeg"
                 alt="First slide"
               />
               <Carousel.Caption></Carousel.Caption>
@@ -96,7 +212,7 @@ We strive to raise our students’ aspiration and achievement levels by infusing
             <Carousel.Item>
               <img
                 className="d-block w-80"
-                src="images/Screenshot (487).png"
+                src="images/gallery/19.jpeg"
                 alt="Second slide"
               />
 
@@ -105,7 +221,7 @@ We strive to raise our students’ aspiration and achievement levels by infusing
             <Carousel.Item>
               <img
                 className="d-block w-80"
-                src="images/Screenshot (488).png"
+                src="images/gallery/20.jpeg"
                 alt="Third slide"
               />
 
@@ -131,57 +247,56 @@ We strive to raise our students’ aspiration and achievement levels by infusing
               Supermarket, Trimulgherry, Secunderabad, 500009
             </h3>
           </div>
-          </div>
+        </div>
 
-
-          <div className="contact">
-            <h2>CONTACT US</h2>
-            <div className="container">
-              <div className="row justify-content-md-center ab">
-                <div className="col-4"><a href="tel:9391035332" target="_blank">
+        <div className="contact">
+          <h2>CONTACT US</h2>
+          <div className="container">
+            <div className="row justify-content-md-center ab">
+              <div className="col-4">
+                <a href="tel:9391035332" target="_blank">
                   <CallIcon />
                 </a>
-                </div>
-                <div className="col-4">
+              </div>
+              <div className="col-4">
                 <a href="mailto:altitudeacademy9.com" target="_blank">
                   <MailIcon />
                 </a>
-                </div>
-                <div className="col"></div>
-                <div className="col">
+              </div>
+              <div className="col"></div>
+              <div className="col">
                 <a
                   href="https://www.instagram.com/altitude_academy/?hl=en"
                   target="_blank"
                 >
                   <InstagramIcon />
                 </a>
-                </div>
-                <div className="col">
+              </div>
+              <div className="col">
                 <a
                   href="https://www.facebook.com/altitudeacademyhyd/"
                   target="_blank"
                 >
                   <FacebookIcon />
                 </a>
-                </div>
-                <div className="col"></div>
               </div>
-              <div className="row justify-content-md-center ab">
-                   <div className="col"><h3>BY PHONE</h3>
-                <p>+919391035332</p></div>
-                <div className="col">
+              <div className="col"></div>
+            </div>
+            <div className="row justify-content-md-center ab">
+              <div className="col">
+                <h3>BY PHONE</h3>
+                <p>+919391035332</p>
+              </div>
+              <div className="col">
                 <h3>MAIL US</h3>
                 <p>altitudeacademy9@gmail.com</p>
-                </div>
-                <div className="col"><h3>SOCIALS</h3>
-                <p>Our social media handles</p></div>
+              </div>
+              <div className="col">
+                <h3>SOCIALS</h3>
+                <p>Our social media handles</p>
               </div>
             </div>
-            
-
-            
-            
-          
+          </div>
         </div>
       </div>
     </div>

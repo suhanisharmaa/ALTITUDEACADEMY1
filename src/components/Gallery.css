@@ -43,13 +43,26 @@
       max-width: 100%;
     }
   } */
-
   .gal{
+    /* background-color: blue; */
     margin-top: 100px;
+    /* background-image: aqua; */
   }
-  .gal > h2{
-      color: rgb(32, 32, 129)
+  .gal_heading > h2{
+      /* background-color: blue; */
+      /* color: rgb(32, 32, 129); */
+      margin-top: 125px;
+      color: rgb(5, 5, 66);
+      
   }
+  .gal_heading{
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgb(3, 41, 98),white);
+    /* height: 82vh; */
+    top: 0px;
+    height: 35vh;
+    width: 100%;
+}
   .gallery{
      /* margin-top: 50px; */
      padding: 20px;

@@ -1,12 +1,14 @@
-
+body{
+    background-color: rgb(6, 12, 61);
+}
 h2,h3{
     font-weight: 900;
     color: rgb(51, 51, 139);
     text-transform: capitalize;
 }
-body > h2{
+.about > h2{
     font-weight: 600;
-    color: rgb(51, 51, 139);
+    color: rgb(6, 12, 61);
 }
 .overview_content{
     /* justify-content: center; */
@@ -14,8 +16,8 @@ body > h2{
 }
 .overview_heading{
     position: relative;
-    background-color: rgb(52, 128, 226);
-    height: 68vh;
+    background-color: rgb(6, 12, 61);
+    height: 82vh;
     width: 100%;
 }
 .overview_heading > h1{
@@ -47,7 +49,7 @@ body > h2{
     color: rgb(51, 51, 139);
     margin-top: 20px;
 }
-.card{
+.cardd{
     position: absolute;
     background-color: white;
     width: 80%;
@@ -58,11 +60,13 @@ body > h2{
 }
 
 .teachers{
-    margin-top: 70vh;
+    margin-top: 58vh;
+    /* background-color: aqua; */
 }
 .teachers > h2{
     font-weight: 900;
     color: rgb(51, 51, 139);
+    /* color: black; */
 }
 .photos > button{
     background-color: rgb(35, 35, 240);
@@ -85,15 +89,18 @@ body > h2{
     /* margin-bottom: 0px;   */
     padding-bottom: 0px;
     box-shadow: 0 0 10px 8px rgb(57, 161, 196);
+    box-shadow: 0 0 10px 8px rgb(6, 12, 61);
+    /* background-color: white; */
 }
 .p{
     background-color: rgba(35, 179, 192, 0.782);
     background-color: rgb(71, 59, 59);
     background-color: rgb(52, 128, 226);
+    background-color: rgb(6, 12, 61);
     z-index: -2;
     position: relative;
     top: -100px;
-    height: 70.5vh;
+    height: 71.5vh;
     width: 25vw;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -101,9 +108,10 @@ body > h2{
 }
 .p > p{
     padding-top: 150px;
-    color: white;
+    /* color: black; */
     font-weight: 900;
     font-size: x-large;
+    color: white;
 }
 .teacher_left{
     margin-bottom: 0px;
@@ -132,17 +140,51 @@ body > h2{
 .teacher_right > h2{
     font-weight: 900;
     color: rgb(51, 51, 139);
+    /* color: black; */
 }
 .teacher_right > p{
-    font-weight: 600;
+    font-weight: 900;
     margin-top: 20px;
+    color: black;
 }
-
+.section_2 > h2{
+    font-weight: 800;
+    color: rgb(51, 51, 139);
+    margin: 50px;
+}
+.teachers_section{
+    /* background-image: linear-gradient(
+    to right,
+    rgb(35, 13, 197),
+    rgb(10, 10, 76)
+  ); */
+  background-color: rgb(6, 12, 61);
+  margin-bottom: 50px;
+}
+.card-decks {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card-deck{
+    padding: 20px;
+    display: flex;
+    
+}
+.card{
+    height: 90vh;
+    width: 30vw;
+    margin: auto;
+}
+.card-title{
+    color: rgb(51, 51, 139);
+    font-weight: 700;
+}
 .photos > h2{
     font-weight: 900;
     color: rgb(51, 51, 139);
     margin-top: 0px;
     margin-bottom: 60px;
+    /* color: black; */
 }
 .photos > button{
     margin: 30px;
@@ -152,6 +194,7 @@ body > h2{
     color: rgb(51, 51, 139);
     margin-top: 0px;
     margin-bottom: 60px;
+    color: black;
 }
 .map_img{
     margin: 30px ;
@@ -165,6 +208,7 @@ body > h2{
     margin: 20px;
     font-size: medium;
     color: black;
+    color: black;
     margin: 40px;
 }
 .contact_options{
@@ -177,6 +221,7 @@ body > h2{
     margin: 50px;
 }
 .col > a, .col-4 > a{
+    color: black;
     color: black;
 } 
 .col > a:hover, .col-4 > a:hover{

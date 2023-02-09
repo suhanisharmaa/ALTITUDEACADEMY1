@@ -13,9 +13,28 @@ import Login from "./components/Login";
 import Payment from "./components/Payment";
 import { auth } from "./components/firebase";
 import { useStateValue } from "./components/StateProvider";
+import Checkout from "./components/Checkout";
 
 
-function App() {
+function App () {
+  const loadScript = (src) => {
+    return new Promise((resolve) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.onload = () => {
+        resolve(true);
+      };
+      script.onerror = () => {
+        resolve(false);
+      };
+      document.body.appendChild(script);
+    });
+  };
+ 
+  useEffect(() => {
+    loadScript("https://checkout.razorpay.com/v1/checkout.js");
+  });
+
   const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
@@ -45,15 +64,20 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+        {/* <Route path="/checkout">
+            <Header />
+            <Checkout />
+            <Footer />
+          </Route> */}
         <Route path="/payment">
             <Header />
             <Payment />
             <Footer />
           </Route>
         <Route path="/login">
-            <Header />
+            {/* <Header /> */}
             <Login />
-            <Footer />
+            {/* <Footer /> */}
           </Route>
         <Route path="/reviews">
             <Header />

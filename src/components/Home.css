@@ -1,161 +1,297 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&family=Roboto:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&family=Roboto:wght@100;400;700&display=swap");
 
-*{
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+* {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
 }
-body{
+body {
   background-color: rgb(240, 238, 238);
+  scroll-behavior: smooth;
 }
-.home_img{
-    z-index: -1;
+html {
+    scroll-behavior: smooth;
 }
-.home_img > img{
-    filter: brightness(30%);
-    max-width: 100%;
-    z-index: -1;
+.home_img {
+  /* z-index: -1; */
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #009688); */
+  position: relative;
 }
+.home_img > img {
+  filter: brightness(30%);
+  max-width: 100%;
+  height: 580px;
+  z-index: -1;
+}
+.home_img > button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 3, 0.7);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.home_img > button:hover{
+    /* background-color: rgba(2, 6, 46, 0.7); */
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+   
+.home_img > a {
+    text-decoration: none;
+    color: black;
+} 
+  
+
+/* .banner{
+    background: url(homeimg.jpeg);
+    background-size: cover;
+    background-position: center;
+} */
 /* .carousel-inner{
     width: 100vh;
 } */
-.top_h{
-    margin: 60px 300px;
-    margin-bottom: 30px;
-    color: rgb(32, 32, 129);
-}
-.top_para{
-    margin: 30px 150px;
-    margin-top: 0px;
-    font-size: larger;
-}
-
-.steps_main{
-    height: 458px;
-    background-image: linear-gradient(to right, rgb(241, 120, 241),rgb(127, 127, 244)) ;
-    /* flex-direction: column; */
-}
-.steps_main > h2{
-    margin-top: 15px;
-    padding-top: 15px;
-    color: rgb(32, 32, 129);
-    font-size: 32px;
-}
-.steps{
-    display: flex;
-}
-.steps_left{
-    margin: auto;
-    margin-left: 140px;
-    margin-right: 100px;
-    margin-bottom: 90px;
-    text-align: left;
-}
-.steps_left > h3{
-    margin-bottom: 5px;
-    margin-top: 8px;
-    font-size: 1.3rem;
-    color: rgb(32, 32, 129);
-}
-.steps_left > p{
-    margin-bottom: 5px;
-}
-.steps_left > button{
-    background-color: rgb(35, 35, 240);
-    /* height: 30px; */
-    color: white;
-    margin-top: 15px;
-    padding: 11px;
-    border-radius: 25px;
-    border: none;
-    font-weight: 800;
-}
-.steps_left > button:hover{
-    cursor: pointer;
-    box-shadow: 0px 8px 6px -6px black;
-}
-.steps_right > img{
-    height: 420px;
-    object-fit: contain;
-}
-
-.why > h2{
-    margin: 60px;
-    padding-top: 15px;
-    color: rgb(32, 32, 129);
-    font-size: 32px;
-}
-.whys{
-    display: flex;
-    justify-content: center;
-    margin: 60px 90px;
-}
-.why_option{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-.why_option > img{
-    height: 80px;
-    width: 80px;
-}
-.why_content{
-    margin: 15px 40px;
-}
-
-.courses_bar{
-    background-image: linear-gradient(to bottom, rgb(70, 186, 248),rgb(255, 244, 84));
-}
-.courses_bar > h2{
-    margin-top: 60px;
-    margin-bottom: 15px;
-    padding-top: 15px;
-    color: rgb(32, 32, 129);
-    font-size: 32px;
-}
-.courses_bar > p{
-    margin: 15px 150px;
-    margin-top: 0px;
-    font-size: larger;
-}
-
-
-
-
-
-
-
-.love > h2{
-    margin: 60px;
-    padding-top: 15px;
-    color: rgb(32, 32, 129);
-    font-size: 32px;
+/* .carousel {
+    position: relative;
 }
 .carousel-item > img{
-    max-width: 70vw; 
-    max-height: 70vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    filter: brightness(50%);
+    width: 100vw;
+} */
+.top_h {
+  margin: 60px 300px;
+  margin-bottom: 30px;
+  color: rgb(32, 32, 129);
 }
-.love > button{
-    background-color: rgb(35, 35, 240);
-    /* height: 30px; */
-    color: white;
-    margin-top: 15px;
-    padding: 11px;
-    border-radius: 25px;
-    border: none;
-    font-weight: 800;
-}
-.love > button:hover{
-    cursor: pointer;
-    box-shadow: 0px 8px 6px -6px black;
+.top_para {
+  margin: 30px 150px;
+  margin-top: 0px;
+  font-size: larger;
+  font-weight: 500;
 }
 
-.courses_card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.steps_main {
+  height: 458px;
+  background-image: linear-gradient(
+    to right,
+    rgb(241, 120, 241),
+    rgb(127, 127, 244)
+  );
+  /* flex-direction: column; */
+}
+.steps_main > h2 {
+  margin-top: 15px;
+  padding-top: 15px;
+  color: rgb(32, 32, 129);
+  font-size: 32px;
+}
+.steps {
+  display: flex;
+}
+.steps_left {
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-bottom: 90px;
+  text-align: left;
+}
+.steps_left > h3 {
+  margin-bottom: 5px;
+  margin-top: 8px;
+  font-size: 1.3rem;
+  color: rgb(32, 32, 129);
+}
+.steps_left > p {
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.steps_left > button {
+  background-color: rgb(35, 35, 240);
+  /* height: 30px; */
+  color: white;
+  margin-top: 15px;
+  padding: 11px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 800;
+}
+.steps_left > button:hover {
+  cursor: pointer;
+  box-shadow: 0px 8px 6px -6px black;
+}
+.steps_right > img {
+  height: 420px;
+  object-fit: contain;
+}
+
+.why > h2 {
+  margin: 60px;
+  padding-top: 15px;
+  color: rgb(32, 32, 129);
+  font-size: 32px;
+}
+.whys {
+  display: flex;
+  justify-content: center;
+  margin: 60px 90px;
+}
+.why_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.why_option > img {
+  height: 80px;
+  width: 80px;
+}
+.why_content {
+  margin: 15px 40px;
+}
+
+.courses_bar {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(70, 186, 248),
+    rgb(255, 244, 84)
+  );
+}
+.courses_bar > h2 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  color: rgb(32, 32, 129);
+  font-size: 32px;
+}
+.courses_bar > p {
+  margin: 15px 150px;
+  margin-top: 0px;
+  font-size: larger;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.row{
+    margin: auto;
+    margin: 10px;
+}
+.title {
+  color: blue;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content {
+  position: relative;
+  width: 100%;
+  max-height: 270px;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+.content .content-overlay {
+  background: linear-gradient(to bottom, rgba(6, 15, 183, 0.9), rgba(5, 1, 41, 0.9));
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay {
+  opacity: 1;
+}
+.content-image {
+  width: 100%;
+  /* margin: 30px; */
+  height: 99%;
+}
+img {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+.fadeIn-bottom {
+  top: 80%;
+}
+
+
+
+.love > h2 {
+  margin: 60px;
+  padding-top: 15px;
+  color: rgb(32, 32, 129);
+  font-size: 32px;
+}
+.carousel-item > img {
+  max-width: 70vw;
+  max-height: 70vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.love > button {
+  background-color: rgb(35, 35, 240);
+  /* height: 30px; */
+  color: white;
+  margin-top: 15px;
+  padding: 11px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 800;
+}
+.love > button:hover {
+  cursor: pointer;
+  box-shadow: 0px 8px 6px -6px black;
+}
+
+.courses_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

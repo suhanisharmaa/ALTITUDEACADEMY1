@@ -10,40 +10,49 @@ function Home() {
     <div className="home">
       <div className="home_img">
         <img className="mySlides" src="images/homeimg.jpeg" alt="" />
+        <button><a href="#down">KNOW MORE</a></button>
       </div>
-      <h2 className="top_h">
-        Get access to best in class worksheets, practice sheets and question
-        papers
+
+      <h2 className="top_h" id="down">
+        Here is the base to scale your heights!
+        <br />A place to learn, grow and win
       </h2>
       <p className="top_para">
-        Get Access to our Study Material consisting of curated Question Papers,
-        previous years Question Papers, chapter-wise and concept wise
-        worksheets, with solutions, handcrafted by experienced and professional
-        educators at <strong>Altitude Academy</strong>, and updated bi-weekly at
-        a minimal price of Rs.99/-
+        Each student is different, learns differently and grows differently. We
+        at <strong>Altitude Academy</strong> want each child to flourish in his
+        or her own way, without having to take academic stress. We push the
+        students to work to the best of their abilities. We mould the students
+        to build confidence have no exam fear and enjoy the subjects with our
+        experienced faculty.
       </p>
 
       <div className="steps_main">
-        <h2>Steps to Access our Study Material</h2>
+        <h2>What makes us Different? </h2>
         <div className="steps">
           <div className="steps_left">
-            <h3 className="steps_heading">Step 1 :</h3>
-            <p className="steps_content">Go to our 'Study Materials' section</p>
-            <h3 className="steps_heading">Step 2 :</h3>
+            <h3 className="steps_heading">1. Result Oriented :</h3>
             <p className="steps_content">
-              Browse through the uploads and select the sheet you would like to
-              purchase
+              We believe in working hard but learning smart. Each of our student
+              is analyzed and given a schedule curated according to his/her
+              needs
             </p>
-            <h3 className="steps_heading">Step 3 :</h3>
+            <h3 className="steps_heading">2. Counselling :</h3>
             <p className="steps_content">
-              Pay a minimal amount of 89/- and check your registered mail id
+              We have regular counselling sessions for students and parents so
+              students can learn with the right attitude, move forward with
+              confidence and feel good about their acheivements
+            </p>
+            <h3 className="steps_heading">3. PTMs :</h3>
+            <p className="steps_content">
+              Constant Update calls with Parents so parents can track their
+              growth too
             </p>
 
-            <p>Keep logging in for biweekly uploads</p>
+            {/* <p>Keep logging in for biweekly uploads</p> */}
 
-            <button>
+            {/* <button>
               <Link to="/studymaterial">Study Material</Link>
-            </button>
+            </button> */}
           </div>
 
           <div className="steps_right">
@@ -92,7 +101,7 @@ function Home() {
 
         <div className="courses_card">
           <div className="container">
-            <div className="row justify-content-md-center">
+            {/* <div className="row justify-content-md-center">
             <Card title="CRASH COURSE" description="Oct-Dec and Jan-Mar"/>
             <Card title="MPC" description="3 days a week multiple batches"/>
             <Card title="BiPC" description="3 days a week multiple batches"/>
@@ -101,9 +110,106 @@ function Home() {
             <Card title="VI-X" description="All Subjects, All Branches"/>
             <Card title="I-V" description="All Subjects"/>
             <Card title="EXAM BATCH" description="Maths Coaching for competitive exams"/>
+            </div> */}
+            <div className="row">
+
+              <div class="col-md-4">
+                <div class="content">
+                  
+                    <div class="content-overlay"></div>{" "}
+                    <img class="content-image" src="images/home/4.jpg" />
+                    <div class="content-details fadeIn-bottom">
+                      <h3 class="content-title">CRASH COURSE</h3>
+                      <p class="content-text">
+                        <i class="fa fa-map-marker"></i> Oct-Dec & Jan-Mar
+                      </p>
+                    </div>
+                  
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="content">
+                 
+                    <div class="content-overlay"></div>{" "}
+                    <img class="content-image" src="images/home/3.webp" />
+                    <div class="content-details fadeIn-bottom">
+                      <h3 class="content-title">MPC</h3>
+                      <p class="content-text">
+                        <i class="fa fa-map-marker"></i> 3 days a week multiple batches
+                      </p>
+                    </div>
+                  
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="content">
+                  
+                  
+                    <div class="content-overlay"></div>{" "}
+                    <img class="content-image" src="images/home/7.jpg" />
+                    <div class="content-details fadeIn-bottom">
+                      <h3 class="content-title">BiPC</h3>
+                      <p class="content-text">
+                        <i class="fa fa-map-marker"></i> 3 days a week multiple batches
+                      </p>
+                    </div>
+                  
+                </div>
+              </div>
+
+            </div>
+
+              <div className="row">
+                <div class="col-md-4">
+                  <div class="content">
+                    
+                      <div class="content-overlay"></div>{" "}
+                      <img class="content-image" src="images/home/5.jpg" />
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">VI-X</h3>
+                        <p class="content-text">
+                          <i class="fa fa-map-marker"></i> All Subjects, All Branches
+                        </p>
+                      </div>
+                    
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="content">
+                    
+                      <div class="content-overlay"></div>{" "}
+                      <img class="content-image" src="images/home/6.jpg" />
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">I-V</h3>
+                        <p class="content-text">
+                          <i class="fa fa-map-marker"></i> All Subjects
+                        </p>
+                      </div>
+                   
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="content">
+                    
+                      <div class="content-overlay"></div>{" "}
+                      <img class="content-image" src="images/home/2.jpg" />
+                      <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">EXAM BATCH</h3>
+                        <p class="content-text">
+                          <i class="fa fa-map-marker"></i> Maths Coaching for competitive exams
+                        </p>
+                      </div>
+                    
+                  </div>
+                </div>
+
+
             </div>
           </div>
-          
         </div>
       </div>
 

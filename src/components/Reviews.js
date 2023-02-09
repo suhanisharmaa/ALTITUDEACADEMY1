@@ -4,7 +4,7 @@ import './Reviews.css';
 function Reviews() {
   return (
     <div className='reviews'>
-        <h2>WORDS OF APPRECIATION</h2>   
+        <div className="gal_heading"><h2>WORDS OF APPRECIATION</h2></div>
         <div className="gallery">
       <div class="row">
   <div class="column a">

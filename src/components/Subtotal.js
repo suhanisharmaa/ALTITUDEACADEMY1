@@ -3,7 +3,8 @@ import "./Subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from "./reducer";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
+import displayRazorpay from "../utils/PaymentGateway";
 
 function Subtotal() {
   const history = useHistory();
@@ -25,7 +26,8 @@ function Subtotal() {
         prefix={"Rs "}
       />
       {/* push the user to another page use history */}
-      <button onClick={(e) => history.push("/payment")}> 
+      <button onClick={displayRazorpay}> 
+      {/* {(e) => history.push("/checkout")} */}
         Proceed to Checkout
       </button>
     </div>
