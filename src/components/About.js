@@ -254,12 +254,12 @@ function About() {
           <div className="container">
             <div className="row justify-content-md-center ab">
               <div className="col-4">
-                <a href="tel:9391035332" target="_blank">
+                <a href="tel:9391035332" target="_blank" rel=“noreferrer” >
                   <CallIcon />
                 </a>
               </div>
               <div className="col-4">
-                <a href="mailto:altitudeacademy9.com" target="_blank">
+                <a href="mailto:altitudeacademy9.com" target="_blank" rel=“noreferrer” >
                   <MailIcon />
                 </a>
               </div>
@@ -267,7 +267,7 @@ function About() {
               <div className="col">
                 <a
                   href="https://www.instagram.com/altitude_academy/?hl=en"
-                  target="_blank"
+                  target="_blank" rel=“noreferrer” 
                 >
                   <InstagramIcon />
                 </a>
@@ -275,7 +275,7 @@ function About() {
               <div className="col">
                 <a
                   href="https://www.facebook.com/altitudeacademyhyd/"
-                  target="_blank"
+                  target="_blank" rel=“noreferrer” 
                 >
                   <FacebookIcon />
                 </a>

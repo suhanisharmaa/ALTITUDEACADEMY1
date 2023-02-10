@@ -38,19 +38,19 @@ function Header(){
         
         
         <div className="header_contact" id="call">
-        <a href="tel:9391035332" target="_blank"><CallIcon/></a>
+        <a href="tel:9391035332" target="_blank" rel=“noreferrer” ><CallIcon/></a>
         <ul>
           <li>9391035332</li>
         </ul>
         </div>
       <div className="header_contact">
-      <a href="mailto:altitudeacademy9.com" target="_blank"><MailIcon/></a> 
+      <a href="mailto:altitudeacademy9.com" target="_blank" rel=“noreferrer” ><MailIcon/></a> 
       </div>
       <div className="header_contact">
-        <a href="https://www.instagram.com/altitude_academy/?hl=en" target="_blank"><InstagramIcon/></a>
+        <a href="https://www.instagram.com/altitude_academy/?hl=en" target="_blank" rel=“noreferrer” ><InstagramIcon/></a>
       </div>
       <div className="header_contact">
-      <a href="https://www.facebook.com/altitudeacademyhyd/" target="_blank"><FacebookIcon/> </a>
+      <a href="https://www.facebook.com/altitudeacademyhyd/" target="_blank" rel=“noreferrer” ><FacebookIcon/> </a>
       </div>
       
       </div>
