@@ -1,16 +1,16 @@
 import React from "react";
-import Flipcard from "./Flipcard";
 import { Carousel } from "react-bootstrap";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Card from "./Card";
 
 function Home() {
   return (
     <div className="home">
       <div className="home_img">
         <img className="mySlides" src="images/homeimg.jpeg" alt="" />
-        <button><a href="#down">KNOW MORE</a></button>
+        <button>
+          <a href="#down">KNOW MORE</a>
+        </button>
       </div>
 
       <h2 className="top_h" id="down">
@@ -112,102 +112,89 @@ function Home() {
             <Card title="EXAM BATCH" description="Maths Coaching for competitive exams"/>
             </div> */}
             <div className="row">
-
-              <div class="col-md-4">
-                <div class="content">
-                  
-                    <div class="content-overlay"></div>{" "}
-                    <img class="content-image" src="images/home/4.jpg" />
-                    <div class="content-details fadeIn-bottom">
-                      <h3 class="content-title">CRASH COURSE</h3>
-                      <p class="content-text">
-                        <i class="fa fa-map-marker"></i> Oct-Dec & Jan-Mar
-                      </p>
-                    </div>
-                  
+              <div className="col-md-4">
+                <div className="content">
+                  <div className="content-overlay"></div>{" "}
+                  <img className="content-image" src="images/home/4.jpg" />
+                  <div className="content-details fadeIn-bottom">
+                    <h3 className="content-title">CRASH COURSE</h3>
+                    <p className="content-text">
+                      <i className="fa fa-map-marker"></i> Oct-Dec & Jan-Mar
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="content">
-                 
-                    <div class="content-overlay"></div>{" "}
-                    <img class="content-image" src="images/home/3.webp" />
-                    <div class="content-details fadeIn-bottom">
-                      <h3 class="content-title">MPC</h3>
-                      <p class="content-text">
-                        <i class="fa fa-map-marker"></i> 3 days a week multiple batches
-                      </p>
-                    </div>
-                  
+              <div className="col-md-4">
+                <div className="content">
+                  <div className="content-overlay"></div>{" "}
+                  <img className="content-image" src="images/home/3.webp" />
+                  <div className="content-details fadeIn-bottom">
+                    <h3 className="content-title">MPC</h3>
+                    <p className="content-text">
+                      <i className="fa fa-map-marker"></i> 3 days a week
+                      multiple batches
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="content">
-                  
-                  
-                    <div class="content-overlay"></div>{" "}
-                    <img class="content-image" src="images/home/7.jpg" />
-                    <div class="content-details fadeIn-bottom">
-                      <h3 class="content-title">BiPC</h3>
-                      <p class="content-text">
-                        <i class="fa fa-map-marker"></i> 3 days a week multiple batches
-                      </p>
-                    </div>
-                  
+              <div className="col-md-4">
+                <div className="content">
+                  <div className="content-overlay"></div>{" "}
+                  <img className="content-image" src="images/home/7.jpg" />
+                  <div className="content-details fadeIn-bottom">
+                    <h3 className="content-title">BiPC</h3>
+                    <p className="content-text">
+                      <i className="fa fa-map-marker"></i> 3 days a week
+                      multiple batches
+                    </p>
+                  </div>
                 </div>
               </div>
-
             </div>
 
-              <div className="row">
-                <div class="col-md-4">
-                  <div class="content">
-                    
-                      <div class="content-overlay"></div>{" "}
-                      <img class="content-image" src="images/home/5.jpg" />
-                      <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">VI-X</h3>
-                        <p class="content-text">
-                          <i class="fa fa-map-marker"></i> All Subjects, All Branches
-                        </p>
-                      </div>
-                    
+            <div className="row">
+              <div className="col-md-4">
+                <div className="content">
+                  <div className="content-overlay"></div>{" "}
+                  <img className="content-image" src="images/home/5.jpg" />
+                  <div className="content-details fadeIn-bottom">
+                    <h3 className="content-title">VI-X</h3>
+                    <p className="content-text">
+                      <i className="fa fa-map-marker"></i> All Subjects, All
+                      Branches
+                    </p>
                   </div>
                 </div>
+              </div>
 
-                <div class="col-md-4">
-                  <div class="content">
-                    
-                      <div class="content-overlay"></div>{" "}
-                      <img class="content-image" src="images/home/6.jpg" />
-                      <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">I-V</h3>
-                        <p class="content-text">
-                          <i class="fa fa-map-marker"></i> All Subjects
-                        </p>
-                      </div>
-                   
+              <div className="col-md-4">
+                <div className="content">
+                  <div className="content-overlay"></div>{" "}
+                  <img className="content-image" src="images/home/6.jpg" />
+                  <div className="content-details fadeIn-bottom">
+                    <h3 className="content-title">I-V</h3>
+                    <p className="content-text">
+                      <i className="fa fa-map-marker"></i> All Subjects
+                    </p>
                   </div>
                 </div>
+              </div>
 
-                <div class="col-md-4">
-                  <div class="content">
-                    
-                      <div class="content-overlay"></div>{" "}
-                      <img class="content-image" src="images/home/2.jpg" />
-                      <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">EXAM BATCH</h3>
-                        <p class="content-text">
-                          <i class="fa fa-map-marker"></i> Maths Coaching for competitive exams
-                        </p>
-                      </div>
-                    
+              <div className="col-md-4">
+                <div className="content">
+                  <div className="content-overlay"></div>{" "}
+                  <img className="content-image" src="images/home/2.jpg" />
+                  <div className="content-details fadeIn-bottom">
+                    <h3 className="content-title">EXAM BATCH</h3>
+                    <p className="content-text">
+                      <i className="fa fa-map-marker"></i> Maths Coaching for
+                      competitive exams
+                    </p>
                   </div>
                 </div>
-
-
+              </div>
             </div>
           </div>
         </div>
@@ -215,8 +202,7 @@ function Home() {
 
       <div className="love">
         <h2>Happy Parents and Students</h2>
-        <div className="carousel">
-          <Carousel>
+        <Carousel>
             <Carousel.Item>
               <img
                 className="d-block w-80"
@@ -244,7 +230,7 @@ function Home() {
               <Carousel.Caption></Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-        </div>
+        
 
         <button>
           <Link to="/reviews">Reviews by our students➡️</Link>

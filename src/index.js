@@ -1,17 +1,17 @@
-// import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import reducer, { initialState } from './components/reducer';
-import { StateProvider } from './components/StateProvider';
+// import reducer, { initialState } from './components/reducer';
+// import { StateProvider } from './components/StateProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <StateProvider initialState={initialState} reducer={reducer}>
+    {/* <StateProvider initialState={initialState} reducer={reducer}> */}
       <App />
-    </StateProvider>
+    {/* </StateProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

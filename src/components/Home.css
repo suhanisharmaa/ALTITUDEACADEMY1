@@ -194,8 +194,8 @@ body {
   position: relative;
   width: 100%;
   max-height: 270px;
-  max-width: 500px;
-  margin: auto;
+  max-width: 320px;
+  margin: 10px;
   overflow: hidden;
 }
 .content .content-overlay {
@@ -275,6 +275,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 .love > button {
   background-color: rgb(35, 35, 240);
   /* height: 30px; */
@@ -294,4 +298,88 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
+
+  .top_h {
+    margin: 60px 30px;
+  }
+
+  .top_para {
+    margin: 30px 15px;
+  }
+
+  .steps_main {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+
+  .steps_left,
+  .steps_right {
+    margin: auto;
+    text-align: center;
+  }
+
+  .steps_left {
+    margin-bottom: 30px;
+  }
+
+  .steps_left > button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .steps_right > img {
+    height: auto;
+    max-width: 80%;
+  }
+
+  .whys {
+    flex-wrap: wrap;
+    margin: 60px 15px;
+  }
+
+  .why_option {
+    margin: 15px;
+  }
+
+  .courses_bar > p {
+    margin: 15px 30px;
+  }
+
+  .content{
+    margin-left: 70px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens smaller than 480px (e.g., mobile devices) */
+
+  .top_h {
+    margin: 60px 15px;
+  }
+
+  .top_para {
+    margin: 30px 15px;
+  }
+
+  .whys {
+    margin: 60px 15px;
+  }
+
+  .courses_bar > p {
+    margin: 15px;
+  }
+
+
 }

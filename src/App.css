@@ -4,9 +4,11 @@
   margin: 0px;
   padding: 0px;
   /* font-family: 'Open Sans', sans-serif; */
+  
   font-family: 'Roboto', sans-serif;
 }
 .App {
   text-align: center;
+  background-color: rgb(253, 249, 249);
 }
 

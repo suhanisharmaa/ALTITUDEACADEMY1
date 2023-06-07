@@ -93,11 +93,7 @@ h2,h3{
     /* background-color: white; */
 }
 .p{
-    background-color: rgba(35, 179, 192, 0.782);
-    background-color: rgb(71, 59, 59);
-    background-color: rgb(52, 128, 226);
     background-color: rgb(6, 12, 61);
-    z-index: -2;
     position: relative;
     top: -100px;
     height: 71.5vh;
@@ -228,3 +224,66 @@ h2,h3{
     color: yellow;
 }
 
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .overview_heading {
+      font-size: 20px;
+    }
+  
+    .cardd {
+        height: 180vh;
+    }
+
+    .teachers{
+        margin-top: 135vh;
+    }
+
+    .p{
+        height: 115.5vh;
+    }
+
+    .card-deck {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .card {
+        height: auto;
+        width: 80%;
+        margin-bottom: 40px;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .overview_heading {
+        font-size: 18px;
+      }
+    
+      .cardd {
+        height: 120vh;
+      }
+    
+      .teachers {
+        margin-top: 80vh;
+      }
+    
+      .p {
+        height: 72vh;
+      }
+    
+      .card-deck {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .card {
+        height: auto;
+        width: 90%;
+        margin-bottom: 30px;
+      }
+  }

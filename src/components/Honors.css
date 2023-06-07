@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(52, 128, 226);
+}
+.honors{
+    margin-top: 70px;
+}
+.honors > h1 {
+    /* margin: 60px 300px; */
+    padding-top: 40px;
+    margin-bottom: 30px;
+    color: rgb(32, 32, 129);
+    /* color: black; */
+    font-weight: 800;
+  }
+.honors > p {
+    margin: 30px 150px;
+    margin-top: 0px;
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+}
+.honors_main > h1{
+    color: rgb(32, 32, 129);
+    font-weight: 800;
+    color: white;
+}
+.honors_main{
+    /* display: flex; */
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+.honors_main > .row > .col > .card{
+    width: 56vh;
+    height: fit-content;
+}
+.col > .card > .card-body > .card-title{
+    color: white;
+} 
+.col > .card > .card-body > .card-text{
+    color: white;
+}
+.col > .card > .card-header{
+    color: white;
+}

@@ -39,7 +39,7 @@ a:hover{
     align-items:center;
 }
 .header_option{
-    margin: 35px;
+    margin: 25px;
     font-weight: 800;
 }
 .header_option > a > p{
@@ -66,3 +66,46 @@ ul > li{
     display: block; 
   }
 
+
+
+  @media only screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
+  
+    .header_logo {
+      margin: 10px 10px;
+      margin-right: 0px;
+    }
+  
+    .header_option {
+      margin: 8px;
+      font-size: 12px;
+    }
+  
+    .header_contact {
+      margin: 10px;
+    }
+  
+    #call:hover > ul {
+      right: 130px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens smaller than 480px (e.g., mobile devices) */
+  
+    .header_nav {
+      margin-left: 15px;
+    }
+  
+    .header_option {
+      margin: 10px;
+    }
+  
+    .header_contact {
+      margin: 10px;
+    }
+  
+    #call:hover > ul {
+      right: 90px;
+    }
+  }

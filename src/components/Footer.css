@@ -23,3 +23,40 @@
 span{
     margin-left: 42px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
+  
+    .footer > p {
+      padding: 15px;
+      margin: 15px;
+      text-align: center;
+    }
+  
+    .links {
+      justify-content: center;
+      margin-right: 0;
+    }
+  
+    .footer_contact {
+      margin: 0 10px;
+    }
+  
+    span {
+      margin-left: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens smaller than 480px (e.g., mobile devices) */
+  
+    .footer > p {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    span {
+      margin-left: 10px;
+    }
+  }
