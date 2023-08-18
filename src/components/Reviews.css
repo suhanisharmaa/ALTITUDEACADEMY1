@@ -40,3 +40,12 @@
     vertical-align: middle;
     width: 100%;
   }
+
+  @media only screen and (max-width: 480px) {
+    .c > img:hover{
+      transform: scale(1.8) translateX(-30px);
+  }
+  .a > img:hover{
+    transform: scale(1.8) translateX(30px);
+  }
+  }

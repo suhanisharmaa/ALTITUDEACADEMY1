@@ -24,5 +24,10 @@ yarn-error.log*
 
 backend
 .firebase
+.firebaserc
+firebase.json
+README.md
+extra.txt
 
 src/extras
+src/utils

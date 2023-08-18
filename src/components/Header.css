@@ -1,3 +1,11 @@
+/* html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} */
 a{
     color: white;
     text-decoration: none;
@@ -68,21 +76,24 @@ ul > li{
 
 
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 769px) {
     /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
-  
+    
     .header_logo {
-      margin: 10px 10px;
+      margin: 7px 7px;
       margin-right: 0px;
     }
   
+    .header_nav {
+      margin-left: 0px;
+    }
     .header_option {
-      margin: 8px;
+      margin-right: 4px;
       font-size: 12px;
     }
   
     .header_contact {
-      margin: 10px;
+      margin-right: 6px;
     }
   
     #call:hover > ul {
@@ -93,16 +104,24 @@ ul > li{
   @media only screen and (max-width: 480px) {
     /* Styles for screens smaller than 480px (e.g., mobile devices) */
   
+    .header_logo {
+      margin: 5px 5px;
+      margin-right: 0px;
+      max-width: 70px;
+      max-height: 80px;
+    }
     .header_nav {
-      margin-left: 15px;
+      margin-left: 0px;
     }
   
     .header_option {
-      margin: 10px;
+      margin: 5px;
+      font-size: 10px;
     }
   
     .header_contact {
-      margin: 10px;
+      margin: 5px;
+      max-height: min-content;
     }
   
     #call:hover > ul {

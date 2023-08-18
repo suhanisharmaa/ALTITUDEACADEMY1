@@ -26,7 +26,7 @@ function Header(){
       <div className="header_nav">
       <Link to='/'><div className="header_option">Home</div></Link>
         {/* <Link to='/studymaterial'><div className="header_option">Study Material</div></Link> */}
-        <Link to ='/about'><div className="header_option">About Us</div></Link>
+        <Link to ='/about'><div className="header_option">About</div></Link>
         <Link to ='/honors'><div className="header_option">Honors</div></Link>
         <Link to ='/reviews'><div className="header_option">Reviews</div></Link>
         <Link to ='/gallery'><div className="header_option">Gallery</div></Link>

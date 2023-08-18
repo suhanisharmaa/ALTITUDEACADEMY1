@@ -23,7 +23,7 @@ function Honors() {
               <div className="card-body">
                 <h5 className="card-title">Top Scorer</h5>
                 <p className="card-text">
-                  Our student Sanya Choudhary has scored 98% in XII Boards in the subject Maths
+                  Our student Sanya Choudhary has scored 96% in XII Boards in the subject Maths and was named the school topper
                 </p>
               </div>
             </div>
@@ -33,18 +33,27 @@ function Honors() {
               <div className="card-body">
                 <h5 className="card-title">Legacy</h5>
                 <p className="card-text">
-                 Some of our students Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, libero have remained with us since when they joined its been 10 years 
+                 3 months Crash Course turned C grade and D grade students to A grade students in both Maths and Science over subsequent years
                 </p>
               </div>
             </div>
 
             <div className="card text-white bg-dark mb-3">
-              <div className="card-header">Header</div>
+              <div className="card-header">2019</div>
               <div className="card-body">
-                <h5 className="card-title">Success card title</h5>
+                <h5 className="card-title">Top Scorer</h5>
                 <p className="card-text">
-                  Students have shown massive improvement from where they began 
-                  Student asdfghjkl asdfgh scored 65 in class 5 and rose upto 90 in class 8
+                  Our student Yusra was the school topper of XII Boards in the subject Physics
+                </p>
+              </div>
+            </div>
+
+            <div className="card text-white bg-dark mb-3">
+              <div className="card-header">2019</div>
+              <div className="card-body">
+                <h5 className="card-title">Top Scorer</h5>
+                <p className="card-text">
+                  In 4 months span, Geet, an IGCSE student completed 9th and 10th intgerated course with us and scored A grade 
                 </p>
               </div>
             </div>
@@ -58,30 +67,39 @@ function Honors() {
               <div className="card-body">
                 <h5 className="card-title">Legacy</h5>
                 <p className="card-text">
-                Some of our students Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, libero have remained with us since when they joined its been 10 years 
+                Our student Katherine enrolled for our 15-day Crash Course and within 15 days secured more than 85%
 
                 </p>
               </div>
             </div>
 
             <div className="card text-white bg-dark mb-3">
-              <div className="card-header">Header</div>
+              <div className="card-header">2018</div>
               <div className="card-body">
-                <h5 className="card-title">Warning card title</h5>
+                <h5 className="card-title">Top Scorer</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Our student Parth Trivedi scored 96% in XII Boards in the subject Maths, was named the school topper and featured in Times of India
+
                 </p>
               </div>
             </div>
 
             <div className="card text-white bg-dark mb-3">
-              <div className="card-header">Header</div>
+              <div className="card-header">2019</div>
               <div className="card-body">
-                <h5 className="card-title">Info card title</h5>
+                <h5 className="card-title">Top Scorer</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Our ICSE students, Rishit, Lokesh and Aradhrika were 98%-100% scorers consistently in all subjects from grade 8th to 12th.
+                </p>
+              </div>
+            </div>
+
+            <div className="card text-white bg-dark mb-3">
+              <div className="card-header">2023</div>
+              <div className="card-body">
+                <h5 className="card-title">Success</h5>
+                <p className="card-text">
+                Many students joined us in smaller classes like 7th to 8th and stayed with us till their 12th. 
                 </p>
               </div>
             </div>
@@ -95,22 +113,32 @@ function Honors() {
               <div className="card-body">
                 <h5 className="card-title">Success</h5>
                 <p className="card-text">
-                Students have shown massive improvement from where they began 
-                  Student asdfghjkl asdfgh scored 65 in class 5 and rose upto 90 in class 8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at placeat eaque dolores, ut quo?
+                Students that joined after COVID have shown massive improvement from where they began.<br/> 
+                Huzefa, Tanishq, Arjun, Mithil, Zoesha, Satvik, Yusuf, Rishona, Ishaan, Yashika, Kabir, Hiral, Riyan, Farhan, <br/> These students joined us after the COVID-19 lockdown and showed growth from 85% to 100% and graduated with flying colors            </p>
+              </div>
+            </div>
+
+            <div className="card text-white bg-dark mb-3">
+              <div className="card-header">2023</div>
+              <div className="card-body">
+                <h5 className="card-title">Success</h5>
+                <p className="card-text">
+                One of our Ashray scored 93% in Chemistry XII Boards through our online sessions. 
                 </p>
               </div>
             </div>
 
             <div className="card text-white bg-dark mb-3">
-              <div className="card-header">Header</div>
+              <div className="card-header">2023</div>
               <div className="card-body">
-                <h5 className="card-title">Dark card title</h5>
+                <h5 className="card-title">Success</h5>
                 <p className="card-text">
-                Students have shown massive improvement from where they began 
-                  Student asdfghjkl asdfgh scored 65 in class 5 and rose upto 90 in class 8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at placeat eaque dolores, ut quo?
+                Our Online batches during COVID-19 lockdown never compromised with knowledge and effort for our students and students were well prepared and confident to face the offline exams after the long break 
                 </p>
               </div>
             </div>
+
+            
 
             </div>
 
@@ -123,7 +151,7 @@ function Honors() {
           <Carousel.Item>
             <img
               className="d-block w-80"
-              src="images/gallery/14.jpeg"
+              src="images/testimonials/1t (1).jpeg"
               alt="First slide"
             />
             <Carousel.Caption></Carousel.Caption>
@@ -131,7 +159,7 @@ function Honors() {
           <Carousel.Item>
             <img
               className="d-block w-80"
-              src="images/gallery/19.jpeg"
+              src="images/testimonials/1t (2).jpeg"
               alt="Second slide"
             />
 
@@ -140,7 +168,7 @@ function Honors() {
           <Carousel.Item>
             <img
               className="d-block w-80"
-              src="images/gallery/20.jpeg"
+              src="images/testimonials/1t (3).jpeg"
               alt="Third slide"
             />
 

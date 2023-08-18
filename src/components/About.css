@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(6, 12, 61);
 }
@@ -53,14 +54,14 @@ h2,h3{
     position: absolute;
     background-color: white;
     width: 80%;
-    height: 100vh;
+    height: 108vh;
     top: 30vh;
     left: 10%;
     box-shadow: 0 0 10px 8px rgb(57, 161, 196);
 }
 
 .teachers{
-    margin-top: 58vh;
+    margin-top: 62vh;
     /* background-color: aqua; */
 }
 .teachers > h2{
@@ -166,6 +167,9 @@ h2,h3{
     display: flex;
     
 }
+.card-img-top{
+    height: 35vh
+}
 .card{
     height: 90vh;
     width: 30vw;
@@ -228,7 +232,7 @@ h2,h3{
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .overview_heading {
       font-size: 20px;
     }
@@ -242,7 +246,7 @@ h2,h3{
     }
 
     .p{
-        height: 115.5vh;
+        height: 93.5vh;
     }
 
     .card-deck {
@@ -261,18 +265,40 @@ h2,h3{
   @media screen and (max-width: 480px) {
     .overview_heading {
         font-size: 18px;
+        height: 100vh;
       }
     
       .cardd {
-        height: 120vh;
+        height: 141vh;
+      }
+      .overview_text{
+        font-size: small;
+        padding: 15px;
       }
     
       .teachers {
         margin-top: 80vh;
       }
-    
+      .teacher_option{
+        height: 140vh;
+      }
       .p {
-        height: 72vh;
+        height: 126vh;
+      }
+      .ab{
+        margin: 0px;
+      }
+      .col>h3, .col>p{
+        margin-top: 7px;
+        font-size: 11px;
+      }
+      .teacher_right{
+        margin-left: 0px;
+        padding: 5px;
+        font-size: smaller;
+      }
+      .teacher_right > h2{
+        margin-top: 60px;
       }
     
       .card-deck {

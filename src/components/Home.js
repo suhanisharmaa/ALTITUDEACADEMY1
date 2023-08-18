@@ -20,9 +20,9 @@ function Home() {
       <p className="top_para">
         Each student is different, learns differently and grows differently. We
         at <strong>Altitude Academy</strong> want each child to flourish in his
-        or her own way, without having to take academic stress. We push the
-        students to work to the best of their abilities. We mould the students
-        to build confidence have no exam fear and enjoy the subjects with our
+        or her own way, without having to take academic stress. We encourage the
+        students to work to the best of their abilities. We help the students
+        to build their confidence, have no exam fear and enjoy the subjects with our
         experienced faculty.
       </p>
 
@@ -32,19 +32,19 @@ function Home() {
           <div className="steps_left">
             <h3 className="steps_heading">1. Result Oriented :</h3>
             <p className="steps_content">
-              We believe in working hard but learning smart. Each of our student
-              is analyzed and given a schedule curated according to his/her
+              We believe 'there is no shortcut to success only hardwork' but smart learning can give direction to hardwork. We observe each student's
+              way of learning and curate a learning schedule according to his/her
               needs
             </p>
             <h3 className="steps_heading">2. Counselling :</h3>
             <p className="steps_content">
               We have regular counselling sessions for students and parents so
-              students can learn with the right attitude, move forward with
-              confidence and feel good about their acheivements
+              students can learn with the right attitude and  move forward with
+              confidence
             </p>
             <h3 className="steps_heading">3. PTMs :</h3>
             <p className="steps_content">
-              Constant Update calls with Parents so parents can track their
+              Constant update to parents so they can track their child's 
               growth too
             </p>
 
@@ -119,7 +119,7 @@ function Home() {
                   <div className="content-details fadeIn-bottom">
                     <h3 className="content-title">CRASH COURSE</h3>
                     <p className="content-text">
-                      <i className="fa fa-map-marker"></i> Oct-Dec & Jan-Mar
+                      <i className="fa fa-map-marker"></i> Oct-Mar & Jan-Mar
                     </p>
                   </div>
                 </div>
@@ -132,8 +132,8 @@ function Home() {
                   <div className="content-details fadeIn-bottom">
                     <h3 className="content-title">MPC</h3>
                     <p className="content-text">
-                      <i className="fa fa-map-marker"></i> 3 days a week
-                      multiple batches
+                      <i className="fa fa-map-marker"></i>
+                      Small Multiple batches
                     </p>
                   </div>
                 </div>
@@ -144,10 +144,9 @@ function Home() {
                   <div className="content-overlay"></div>{" "}
                   <img className="content-image" src="images/home/7.jpg" />
                   <div className="content-details fadeIn-bottom">
-                    <h3 className="content-title">BiPC</h3>
+                    <h3 className="content-title">ONLINE</h3>
                     <p className="content-text">
-                      <i className="fa fa-map-marker"></i> 3 days a week
-                      multiple batches
+                      <i className="fa fa-map-marker"></i>Weekend Online Classes
                     </p>
                   </div>
                 </div>
@@ -163,7 +162,7 @@ function Home() {
                     <h3 className="content-title">VI-X</h3>
                     <p className="content-text">
                       <i className="fa fa-map-marker"></i> All Subjects, All
-                      Branches
+                      Boards
                     </p>
                   </div>
                 </div>
@@ -176,7 +175,7 @@ function Home() {
                   <div className="content-details fadeIn-bottom">
                     <h3 className="content-title">I-V</h3>
                     <p className="content-text">
-                      <i className="fa fa-map-marker"></i> All Subjects
+                      <i className="fa fa-map-marker"></i> All Subjects, All Boards
                     </p>
                   </div>
                 </div>

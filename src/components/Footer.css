@@ -25,7 +25,7 @@ span{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
   
     .footer > p {
