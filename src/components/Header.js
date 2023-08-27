@@ -6,17 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import { Link } from 'react-router-dom';
 import "./Header.css";
 
-// import { useStateValue } from "./StateProvider";
-// import { auth } from "./firebase";
-
 function Header(){
-  // const [{ basket, user }, dispatch] = useStateValue();
-
-  // const handleAuthenticaton = () => {
-  //   if (user) {
-  //     auth.signOut();
-  //   }
-  // }
 
   return (
     <>
@@ -24,19 +14,14 @@ function Header(){
       <img src="images/logoaa2.png" alt="" className="header_logo" />
 
       <div className="header_nav">
-      <Link to='/'><div className="header_option">Home</div></Link>
+      <div className="header_option"><Link to='/' className="link-no-underline">Home</Link></div>
         {/* <Link to='/studymaterial'><div className="header_option">Study Material</div></Link> */}
-        <Link to ='/about'><div className="header_option">About</div></Link>
-        <Link to ='/honors'><div className="header_option">Honors</div></Link>
-        <Link to ='/reviews'><div className="header_option">Reviews</div></Link>
-        <Link to ='/gallery'><div className="header_option">Gallery</div></Link>
+        <div className="header_option"><Link to ='/about'className="link-no-underline">About</Link></div>
+        <div className="header_option"><Link to ='/honors'className="link-no-underline">Honors</Link></div>
+        <div className="header_option"><Link to ='/reviews'className="link-no-underline">Reviews</Link></div>
+        <div className="header_option"><Link to ='/gallery'className="link-no-underline">Gallery</Link></div>
 
-        {/* <Link to ='/login'><div className="header_option">Login</div></Link> */}
-        {/* {user ? <Link to ='/payment'><div className="header_option">Cart</div></Link> : <Link to ='/login'><div className="header_option">Cart</div></Link>} */}
         
-        {/* <div onClick={handleAuthenticaton} className="header_option">
-        {user ? <Link to ='/'><p>Sign Out</p></Link> : <Link to ='/login'><p>Sign In</p></Link>}
-        </div> */}
         
         
         <div className="header_contact" id="call">

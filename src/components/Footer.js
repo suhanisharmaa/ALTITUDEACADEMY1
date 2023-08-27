@@ -6,7 +6,10 @@ import MailIcon from '@material-ui/icons/Mail';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import "./Footer.css";
 
-function Footer() {
+function Footer () {
+  const iconStyle = {
+    color: 'white',
+  };
   return (
 
     <MDBFooter bgColor='primary' className='text-center text-lg-start text-white mt-5'>
@@ -16,24 +19,6 @@ function Footer() {
         </div>
 
         <div className="links">
-          {/* <a href='' className='me-4 text-reset ic'>
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='' className='me-4 text-reset ic'>
-            <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='' className='me-4 text-reset ic'>
-            <MDBIcon fab icon="google" />
-          </a>
-          <a href='' className='me-4 text-reset ic'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset ic'>
-            <MDBIcon fab icon="linkedin" />
-          </a>
-          <a href='' className='me-4 text-reset bg-light'>
-            <MDBIcon fab icon="github" />
-          </a> */}
           <div className="footer_contact" id="call">
         <a href="tel:9391035332" target="_blank" rel="noreferrer"  ><CallIcon/></a>
         <ul>
@@ -116,19 +101,19 @@ function Footer() {
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-              <p>
-                <MDBIcon icon="home" className="me-0" />
+              <p className="white-icon">
+                <MDBIcon icon="home" className="me-0" style={iconStyle}/>
                   Manasarovar Heights Rd, 500009
               </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-0" />
+              <p className="white-icon">
+                <MDBIcon icon="envelope" className="me-0" style={iconStyle} />
                 altitudeacademy9@gmail.com
               </p>
-              <p>
-                <MDBIcon icon="phone" className="me-0" /> +919391035332 
+              <p className="white-icon">
+                <MDBIcon icon="phone" className="me-0" style={iconStyle}/> +919391035332 
               </p>
-              <p>
-                <MDBIcon icon="print" className="me-0" /> +919177565330
+              <p className="white-icon">
+                <MDBIcon icon="print" className="me-0" style={iconStyle} /> +919177565330
               </p>
             </MDBCol>
           </MDBRow>
@@ -149,3 +134,7 @@ function Footer() {
 }
 
 export default Footer;
+
+
+
+

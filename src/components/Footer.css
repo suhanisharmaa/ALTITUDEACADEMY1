@@ -20,9 +20,22 @@
 .footer_contact{
     margin: 0px 15px;
 }
+.footer_contact > a{
+  color: white;
+}
+.footer_contact > a:hover{
+  color: yellow;
+}
 span{
     margin-left: 42px;
 }
+.white-icon {
+  color: white !important;
+}
+.text-reset{
+  text-decoration: none;
+}
+
 
 
 @media only screen and (max-width: 769px) {

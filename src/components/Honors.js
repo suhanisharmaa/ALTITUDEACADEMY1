@@ -4,6 +4,8 @@ import { Carousel } from "react-bootstrap";
 
 function Honors() {
   return (
+    <>
+    <div className="color-section"></div>
     <div className="honors">
       <h1>Our Achievements</h1>
       <p>
@@ -177,6 +179,7 @@ function Honors() {
         </Carousel>
       </div>
     </div>
+    </>
   );
 }
 

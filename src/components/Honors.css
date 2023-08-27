@@ -1,8 +1,9 @@
-body{
+.color-section {
     background-color: rgb(52, 128, 226);
-}
+    height: 70px; /* Set the desired height */
+  }
 .honors{
-    margin-top: 70px;
+    margin-top: 0px;
 }
 .honors > h1 {
     /* margin: 60px 300px; */
