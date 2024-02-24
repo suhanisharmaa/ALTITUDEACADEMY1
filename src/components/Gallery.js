@@ -10,6 +10,10 @@ function Gallery () {
     <div className="gallery">
       <div class="row">
   <div class="column a">
+  <img src="images/gallery/n1.jpg"/>
+  <img src="images/gallery/n9.jpg"/>
+  <img src="images/gallery/n3.jpg"/>
+  <img src="images/gallery/n6.jpg"/>
     <img src="images/gallery/1.jpeg"/>
     <img src="images/gallery/2.jpeg"/>
     <img src="images/gallery/3.jpeg"/>
@@ -31,13 +35,14 @@ function Gallery () {
     <img src="images/gallery/19.jpeg"/>
     <img src="images/gallery/20.jpeg"/>
     <img src="images/gallery/21.jpeg"/>
-    <img src="images/gallery/22.jpeg"/>
-    <img src="images/gallery/23.jpeg"/>
-    <img src="images/gallery/24.jpeg"/>
-    <img src="images/gallery/25.jpeg"/>
-    <img src="images/gallery/26.jpeg"/>
+    <img src="images/gallery/n11.jpg"/>
+    
+
   </div>
   <div class="column b">
+  <img src="images/gallery/n4.jpg"/>
+  <img src="images/gallery/n10.jpg"/>
+  <img src="images/gallery/n5.jpg"/>
   <img src="images/gallery/27.jpeg"/>
     <img src="images/gallery/28.jpeg"/>
     <img src="images/gallery/29.jpeg"/>
@@ -48,36 +53,41 @@ function Gallery () {
     <img src="images/gallery/34.jpeg"/>
     <img src="images/gallery/35.jpeg"/>
     <img src="images/gallery/36.jpeg"/>
-    <img src="images/gallery/37.jpeg"/>
+    {/* <img src="images/gallery/37.jpeg"/> */}
     <img src="images/gallery/38.jpeg"/>
-    <img src="images/gallery/39.jpeg"/>
+    {/* <img src="images/gallery/39.jpeg"/> */}
     <img src="images/gallery/40.jpeg"/>
-    <img src="images/gallery/41.jpeg"/>
+    {/* <img src="images/gallery/41.jpeg"/> */}
     <img src="images/gallery/42.jpeg"/>
     <img src="images/gallery/43.jpeg"/>
     <img src="images/gallery/44.jpeg"/>
     <img src="images/gallery/45.jpeg"/>
-    <img src="images/gallery/46.jpeg"/>
-    <img src="images/gallery/47.jpeg"/>
+    {/* <img src="images/gallery/46.jpeg"/> */}
+    {/* <img src="images/gallery/47.jpeg"/> */}
     <img src="images/gallery/48.jpeg"/>
+    <img src="images/gallery/24.jpeg"/>
+    <img src="images/gallery/26.jpeg"/>
     
     
   </div>
   <div class="column c">
-  <img src="images/gallery/a.jpeg"/>
+  {/* <img src="images/gallery/a.jpeg"/> */}
+  <img src="images/gallery/n2.jpg"/>
+  <img src="images/gallery/n7.jpg"/>
+  <img src="images/gallery/n8.jpg"/>
     <img src="images/gallery/b.jpeg"/>
     <img src="images/gallery/c.jpeg"/>
     <img src="images/gallery/d.jpeg"/>
-    <img src="images/gallery/e.jpeg"/>
+    {/* <img src="images/gallery/e.jpeg"/> */}
     <img src="images/gallery/f.jpeg"/>
-    <img src="images/gallery/g.jpeg"/>
-    <img src="images/gallery/h.jpeg"/>
+    {/* <img src="images/gallery/g.jpeg"/> */}
+    {/* <img src="images/gallery/h.jpeg"/> */}
     <img src="images/gallery/i.jpeg"/>
     <img src="images/gallery/j.jpeg"/>
-    <img src="images/gallery/k.jpeg"/>
+    {/* <img src="images/gallery/k.jpeg"/> */}
     <img src="images/gallery/l.jpeg"/>
     <img src="images/gallery/m.jpeg"/>
-    <img src="images/gallery/n.jpeg"/>
+    {/* <img src="images/gallery/n.jpeg"/> */}
     <img src="images/gallery/o.jpeg"/>
     <img src="images/gallery/p.jpeg"/>
     <img src="images/gallery/q.jpeg"/>
@@ -93,7 +103,13 @@ function Gallery () {
     <img src="images/gallery/51.jpeg"/>
     <img src="images/gallery/52.jpeg"/>
     <img src="images/gallery/49.jpeg"/>
-    <img src="images/gallery/50.jpeg"/>
+    <img src="images/gallery/22.jpeg"/>
+    <img src="images/gallery/25.jpeg"/>
+    {/* <img src="images/gallery/23.jpeg"/> */}
+    
+    
+    
+    {/* <img src="images/gallery/50.jpeg"/> */}
   </div>
   {/* <div class="column">
     <img src="images/reviews/Screenshot (550).png"/>

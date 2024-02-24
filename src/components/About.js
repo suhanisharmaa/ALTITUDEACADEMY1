@@ -20,25 +20,9 @@ function About() {
           <div className="cardd">
             <div className="overview_text">
               <h3>HOW WE STARTED</h3>
-              Our Founder, Shweta Sharma has been teaching ever since she was a
-              student. She has had an experience of around 25 years in the
-              education field. Her forte being Mathematics, she aimed to conquer
-              the 'fear of Maths' from every child that came to her. Having a deep passion for her work and her subject felt that teaching methods needed a change to fit the evolving mindset of modern students. Her
-              creative method of teaching, helped her to do so, build concepts
-              from bottom-up in the child's mind as well as get the child hooked
-              to the subject. With this Vision in mind, was established ALTITUDE
-              ACADEMY in the year 2015. Started only with a handful of students,
-              Altitude Academy now has a community of students, teachers, alumni
-              that have forever taken a piece in Altitude Academy's story.
+              Our Founder, Shweta Sharma has been teaching ever since she was a student. She has an experience of around 25 years in the education field. Her forte being Mathematics, she aimed to conquer the 'fear of Maths' from every child that came to her. Having a deep passion for her work and her subject, she felt that teaching methods needed a change to fit the evolving mindset of modern students. Her creative method of teaching helped her to do so, building concepts from bottom-up in the child's mind as well as getting the child hooked to the subject. With this vision in mind, was established ALTITUDE ACADEMY in the year 2015. Started only with a handful of students, Altitude Academy now has a community of students, teachers, alumni that have forever taken a place in Altitude Academy's story.
               <h3>OUR MISSION</h3>
-              Our vision is to nurture the students to explore their full
-              potential so as to boost their self-confidence and morale. Our
-              mission is to provide the best education to every student, help him/her to learn and achieve academic success.
-              We aim to help all students achieve their potential by giving them
-              encouragement, understanding and individualised attention. We
-              strive to raise our students’ aspiration, make them dream higher and acheive more by
-              infusing them with enthusiasm for the subject, self-confidence,
-              motivation and direction.
+              Our vision is to nurture the students to explore their full potential so as to boost their self-confidence and morale. Our mission is to provide the best education to every student, help them learn and achieve academic success. We aim to help all students achieve their potential by giving them encouragement, understanding and individualized attention. We strive to raise our students’ aspirations, make them dream higher and achieve more by infusing them with enthusiasm for the subject, self-confidence, motivation and direction.
             </div>
           </div>
         </div>
@@ -57,7 +41,7 @@ function About() {
           <div className="teacher_right">
             <h2>OUR FOUNDER</h2>
             <p>
-              A visionary, leader and pioneer, Ms Shweta is the driving force of Altitude Academy. Bringing in a new way of teaching, one in which she analyzes each child's strengths and weaknesses and provides them a concept based learning path, curated differently for everyone. She believes in instilling quality knowledge in a structured manner rather than quantity knowledge, and this is what makes her students fall in love with her subject, Mathematics. Her experience of more than 25 years and interactive classes really bring out a child's true potential. Her constant counselling sessions with both parents and students strengthen their trust in Altitude Academy. The institute still lights up with students coming after years to share their acheivements and that is the true fulfillment of a little dream she saw many years ago, that is Altitude Academy's true victory. 
+            A visionary, leader and pioneer, Ms. Shweta is the driving force of Altitude Academy, bringing in a new way of teaching, one in which she analyzes each child's strengths and weaknesses and provides them with a concept based learning path, curated differently for everyone. She believes in instilling quality knowledge in a structured manner rather than quantity knowledge, and this is what makes her students fall in love with her subject, Mathematics. Her experience of more than 25 years and interactive classes really bring out a child's true potential. Her constant counselling sessions with both parents and students strengthen their trust in Altitude Academy. The institute still lights up with students coming after years to share their achievements and that is the true fulfillment of a little dream she saw many years ago, that is Altitude Academy's true victory. 
             </p>
           </div>
         </div>
@@ -73,7 +57,7 @@ function About() {
           <div className="teacher_right">
             <h2>OUR PILLAR OF STRENGTH</h2>
             <p>
-              Ms Jyothi, a founding member of Altitude Academy, has been the institute's pillar of  strength since day one. She is a B.Sc and B.Ed in Science. Jyothi ma'am specializes in multiple domains, Science, Languages, Primary Classes Subjects, Handwriting being some. Her sweet demeanor and unmatchable patience attracts children of all ages towards her. She has worked with several students as they transform from average to bright and that is her strength, her forte. She has levelled up Science at Altitude Academy by acheiving incredible results year after year. She is absolutely dynamic in her ways and surely one of a kind.
+            Ms. Jyothi, a founding member of Altitude Academy, has been the institute's pillar of strength since day one. She is a B.Sc and B.Ed in Science. Jyothi ma'am specializes in multiple domains- Science, Languages, Primary Classes Subjects, Handwriting being some. Her sweet demeanor and unmatchable patience attracts children of all ages towards her. She has worked with several students as they transform from average to bright and that is her strength, her forte. She has levelled up Science at Altitude Academy by achieving incredible results year after year. She is absolutely dynamic in her ways and surely one of a kind.
             </p>
           </div>
         </div>
@@ -87,7 +71,7 @@ function About() {
               <div className="card">
                 <img className="card-img-top" src="images/teachers/shweta.jpg" alt="Card image cap" />
                 <div className="card-body">
-                  <h5 className="card-title">SHWETA SHARMA</h5>
+                  <h5 className="card-title">Mrs. SHWETA </h5>
                   <p className="card-text">
                     Ms Shweta brings out best results and improvement in Maths for students of CBSE, ICSE, IB, Cambridge Boards and works with teachers to curate a course plan for each student.
                   </p>
@@ -97,11 +81,11 @@ function About() {
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src="images/teachers/d.jpg" alt="Card image cap" />
+                <img className="card-img-top" src="images/teachers/jyothi.jpg" alt="Card image cap" />
                 <div className="card-body">
-                  <h5 className="card-title">JYOTHI</h5>
+                  <h5 className="card-title">Ms. JYOTHI</h5>
                   <p className="card-text">
-                    Ms. Jyothi has been consistent in bringing amazing results in X Science Boards since years and has expertise in handling multiple subjects of middle school students. 
+                    Ms. Jyothi has been consistent in bringing amazing results in X Science Boards since years and has expertise in handling multiple subjects of middle school students. <br></br> <br></br> 
                   </p>
                 </div>
                 <div className="card-footer">
@@ -109,26 +93,39 @@ function About() {
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src="images/teachers/durga.jpeg" alt="Card image cap" />
+                <img className="card-img-top" src="images/teachers/deepa.jpeg" alt="Card image cap" />
                 <div className="card-body">
-                  <h5 className="card-title">DURGA</h5>
+                <h5 className="card-title">Mrs. DEEPA</h5>
                   <p className="card-text">
-                    PhD in Chemistry, Ma'am has taught many students and brought amazing results in X/XII Boards, NEET, ICSE, even during difficult times of COVID-19.
+                    Having an excellent grip and years of experience of one of the most vast subjects, Deepa Ma'am makes Physics concepts crystal-clear and unforgettable for students 
+                    <br></br><br></br>
                   </p>
                 </div>
                 <div className="card-footer">
-                  <small className="text-muted">Chemistry Faculty 2019-2022</small>
+                  <small className="text-muted">Physics Faculty since 2018</small>
                 </div>
               </div>
             </div>
 
             <div className="card-deck">
             <div className="card">
-                <img className="card-img-top" src="images/teachers/premila maam.jpeg" alt="Card image cap" />
+            <img className="card-img-top" src="images/teachers/durga.jpeg" alt="Card image cap" />
                 <div className="card-body">
-                  <h5 className="card-title">PREMILA MA'AM</h5>
+                <h5 className="card-title">Mrs. DURGA</h5>
                   <p className="card-text">
-                    It is an honor for Altitude Academy to be associated with ex principle of Kendriya Vidyalaya who enriched students with her excellence in Chemistry.
+                    PhD in Chemistry, Ma'am has taught many students and brought amazing results in X/XII Boards, NEET, ICSE, even during difficult times of COVID-19.<br></br><br></br>
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Chemistry Faculty 2019-2022</small>
+                </div>
+              </div>
+              <div className="card">
+              <img className="card-img-top" src="images/teachers/premila maam.jpeg" alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Mrs. PREMILA</h5>
+                  <p className="card-text">
+                    It is an honor for Altitude Academy to be associated with ex principle of Kendriya Vidyalaya who enriched students with her excellence in Chemistry.<br></br><br></br>
                   </p>
                 </div>
                 <div className="card-footer">
@@ -136,21 +133,9 @@ function About() {
                 </div>
               </div>
               <div className="card">
-                <img className="card-img-top" src="images/teachers/deepa.jpeg" alt="Card image cap" />
-                <div className="card-body">
-                  <h5 className="card-title">DEEPA</h5>
-                  <p className="card-text">
-                    Having an excellent grip and years of experience of one of the most vast subjects, Deepa Ma'am makes Physics concepts crystal-clear and unforgettable for students 
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <small className="text-muted">Physics Faculty from 2018</small>
-                </div>
-              </div>
-              <div className="card">
                 <img className="card-img-top" src="images/teachers/english_1.jpg" alt="Card image cap" />
                 <div className="card-body">
-                  <h5 className="card-title">ENGLISH MA'AM</h5>
+                  <h5 className="card-title">Mrs. MARIA </h5>
                   <p className="card-text">
                     Experienced as Vice Principle and Head of English Department for many years, Ma'am worked with junior and senior students with patience and graced the academy with her loving nature.
                   </p>
