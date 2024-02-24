@@ -32,20 +32,15 @@ function Home() {
           <div className="steps_left">
             <h3 className="steps_heading">1. Result Oriented :</h3>
             <p className="steps_content">
-              We believe 'there is no shortcut to success only hardwork' but smart learning can give direction to hardwork. We observe each student's
-              way of learning and curate a learning schedule according to his/her
-              needs
+            We believe 'There is no shortcut to success; only hardwork'. And smart learning can give direction to hardwork. We observe each student's way of learning and curate a learning schedule according to their needs.
             </p>
             <h3 className="steps_heading">2. Counselling :</h3>
             <p className="steps_content">
-              We have regular counselling sessions for students and parents so
-              students can learn with the right attitude and  move forward with
-              confidence
+            We have regular counselling sessions for students and parents so students can learn with the right attitude and move forward with confidence.
             </p>
             <h3 className="steps_heading">3. PTMs :</h3>
             <p className="steps_content">
-              Constant update to parents so they can track their child's 
-              growth too
+            Constant updates and discussions with parents so they can track and boost their child's growth.
             </p>
 
             {/* <p>Keep logging in for biweekly uploads</p> */}
