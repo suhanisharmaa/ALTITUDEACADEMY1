@@ -14,6 +14,10 @@ function Gallery () {
   <img src="images/gallery/n9.jpg"/>
   <img src="images/gallery/n3.jpg"/>
   <img src="images/gallery/n6.jpg"/>
+  <img src="images/gallery/nn1.jpg"/>
+  <img src="images/gallery/nn2.jpg"/>
+  <img src="images/gallery/nn3.jpg"/>
+  <img src="images/gallery/nn4.jpg"/>
     <img src="images/gallery/1.jpeg"/>
     <img src="images/gallery/2.jpeg"/>
     <img src="images/gallery/3.jpeg"/>
@@ -43,6 +47,10 @@ function Gallery () {
   <img src="images/gallery/n4.jpg"/>
   <img src="images/gallery/n10.jpg"/>
   <img src="images/gallery/n5.jpg"/>
+  <img src="images/gallery/nn5.jpg"/>
+  <img src="images/gallery/nn6.jpg"/>
+  <img src="images/gallery/nn7.jpg"/>
+  <img src="images/gallery/nn8.jpg"/>
   <img src="images/gallery/27.jpeg"/>
     <img src="images/gallery/28.jpeg"/>
     <img src="images/gallery/29.jpeg"/>
@@ -61,7 +69,7 @@ function Gallery () {
     <img src="images/gallery/42.jpeg"/>
     <img src="images/gallery/43.jpeg"/>
     <img src="images/gallery/44.jpeg"/>
-    <img src="images/gallery/45.jpeg"/>
+    {/* <img src="images/gallery/45.jpeg"/> */}
     {/* <img src="images/gallery/46.jpeg"/> */}
     {/* <img src="images/gallery/47.jpeg"/> */}
     <img src="images/gallery/48.jpeg"/>
@@ -75,6 +83,10 @@ function Gallery () {
   <img src="images/gallery/n2.jpg"/>
   <img src="images/gallery/n7.jpg"/>
   <img src="images/gallery/n8.jpg"/>
+  <img src="images/gallery/nn9.jpg"/>
+  <img src="images/gallery/nn10.jpg"/>
+  <img src="images/gallery/nn11jpg"/>
+  <img src="images/gallery/nn12.jpg"/>
     <img src="images/gallery/b.jpeg"/>
     <img src="images/gallery/c.jpeg"/>
     <img src="images/gallery/d.jpeg"/>

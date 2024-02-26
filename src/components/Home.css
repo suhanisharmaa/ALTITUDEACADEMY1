@@ -366,22 +366,72 @@ img {
   body{
     max-width: max-content;
   }
+  .home_img > img{
+    height: 40vh;
+  }
   .top_h {
-    margin: 60px 15px;
+    margin: 50px 15px 30px 15px;
+    font-size: 21px;
   }
   .top_para {
-    margin: 30px 15px;
+    margin: 0px 30px 50px 30px;
+    font-size: 15px;
+    text-align: justify;
   }
 
-  .whys {
-    margin: 60px 15px;
+  .steps_main > h2{
+    font-size: x-large;
   }
-
-  .courses_bar > p {
+  .steps_left > h3{
+    font-size: larger;
+  }
+  .steps_left >p{
+    font-size: 15px;
+    margin: 15px 50px;
+    text-align: center;
+  }
+  .why{
+    margin: 0px;
+  }
+  .why > h2{
+    font-size: x-large;
+    margin: 30px;
+  }
+  .whys{
     margin: 15px;
+    margin-bottom: 0px;
+  }
+  .why_option > .why_img{
+    max-height: 6vh;
+    max-width: 13vw;
+    margin: 4px;
+  }
+  .why_option{
+    margin: 0px;
+  }
+  .why_content{
+    font-size: small;
+  }
+  .courses_bar{
+    margin: 0px 0px;
+  }
+  .courses_bar > h2{
+    font-size: 23px;
+  }
+  .courses_bar > p {
+    font-size: small;
   }
   .content{
     margin: 5px auto;
+    height: 17vh;
+  }
+  .love > h2{
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .d-block{
+    margin: 20px;
   }
 
 }

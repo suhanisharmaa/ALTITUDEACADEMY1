@@ -265,11 +265,13 @@ h2,h3{
   @media screen and (max-width: 480px) {
     .overview_heading {
         font-size: 18px;
-        height: 100vh;
+        height: 40vh;
       }
     
       .cardd {
-        height: 141vh;
+        top: 18vh;
+        margin-top: 0px;
+        height: 80vh;
       }
       .overview_text{
         font-size: small;
@@ -277,13 +279,17 @@ h2,h3{
       }
     
       .teachers {
-        margin-top: 80vh;
+        margin-top: 64vh;
       }
       .teacher_option{
-        height: 140vh;
+        height: 80vh;
+      }
+      .teacher_left > img{
+        height: 16vh;
+        width: 28vw;
       }
       .p {
-        height: 126vh;
+        height: 75.5vh;
       }
       .ab{
         margin: 0px;
@@ -311,5 +317,21 @@ h2,h3{
         height: auto;
         width: 90%;
         margin-bottom: 30px;
+      }
+      .card-deck{
+        margin-top: -60px;
+        margin-bottom: 0px;
+      }
+      .card-deck > .card{
+        height: 40vh;
+      }
+      .card-deck > .card > img{
+        height: 17vh;
+      }
+      .card-title{
+        font-size: large;
+      }
+      .card-text{
+        font-size: small;
       }
   }

@@ -64,6 +64,10 @@ span{
   @media only screen and (max-width: 480px) {
     /* Styles for screens smaller than 480px (e.g., mobile devices) */
   
+    .footer {
+      max-height: max-content;
+    }
+  
     .footer > p {
       padding: 10px;
       margin: 10px;
@@ -71,5 +75,9 @@ span{
   
     span {
       margin-left: 10px;
+    }
+  
+    .footer_contact {
+      margin: 0 5px;
     }
   }

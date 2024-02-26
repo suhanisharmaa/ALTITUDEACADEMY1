@@ -42,10 +42,23 @@
   }
 
   @media only screen and (max-width: 480px) {
-    .c > img:hover{
-      transform: scale(1.8) translateX(-30px);
+  .gallery > .row {
+    flex-direction: column;
   }
-  .a > img:hover{
-    transform: scale(1.8) translateX(30px);
+
+  .column {
+    flex: 100%; /* Each column takes up 100% of the width */
+    max-width: 100%;
   }
+  /* Reset hover effect */
+  .column > img:hover,
+  .column > img:active,
+  .column > img:focus {
+    transform: none !important; /* Reset the transform property */
+    z-index: auto !important; /* Reset the z-index property if needed */
+  }
+  .gal_heading{
+    max-height: 20vh;
+  }
+
   }
