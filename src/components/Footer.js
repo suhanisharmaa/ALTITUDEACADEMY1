@@ -113,7 +113,7 @@ function Footer () {
                 <MDBIcon icon="phone" className="me-0" style={iconStyle}/> +919391035332 
               </p>
               <p className="white-icon">
-                <MDBIcon icon="print" className="me-0" style={iconStyle} /> +919177565330
+                <MDBIcon icon="print" className="me-0" style={iconStyle} /> +919177565332
               </p>
             </MDBCol>
           </MDBRow>

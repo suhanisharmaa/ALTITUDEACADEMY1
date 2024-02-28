@@ -264,33 +264,52 @@ h2,h3{
   
   @media screen and (max-width: 480px) {
     .overview_heading {
-        font-size: 18px;
+        font-size: 10px;
         height: 40vh;
       }
     
       .cardd {
-        top: 18vh;
+        top: 24vh;
         margin-top: 0px;
-        height: 80vh;
+        height: 83vh;
+        display: flex;
+        justify-content: center;
       }
       .overview_text{
-        font-size: small;
+        font-size: 10px;
         padding: 15px;
       }
     
       .teachers {
-        margin-top: 64vh;
+        margin-top: 70vh;
       }
       .teacher_option{
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+      }
+      .teacher_left{
+        display: flex;
+        flex-direction: column;
       }
       .teacher_left > img{
         height: 16vh;
         width: 28vw;
       }
-      .p {
-        height: 75.5vh;
+      .teacher_right > p{
+        font-size: 10px;
       }
+      .p {
+        /* position: relative; */
+        /* height: 90.5vh; */
+         /* Hide content that exceeds the boundaries */
+        height: 150%; 
+        max-height: 100vh;
+        overflow-y: hidden;
+        /* padding-top: 0px;
+        margin-top: 0px; */
+        top: -60px;    
+      }    
+
       .ab{
         margin: 0px;
       }
